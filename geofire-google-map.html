@@ -1,0 +1,34 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<!--
+`geofire-google-map`
+Bringing geofire and google maps together
+
+@demo demo/index.html
+-->
+
+<dom-module id="geofire-google-map">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'geofire-google-map',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'geofire-google-map',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
